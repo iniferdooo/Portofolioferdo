@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio-Ferdo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/dde3797397.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo1-eXlaCi50ow-transformed.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Service</a></li>
+                <li><a href="#portofolio">Kegiatan Saya</a></li>
+                <li><a href="#contact">contact</a></li>
+                <i class="fa-solid fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>.....</p>
+            <h1>Hi, I'm <span>Ferdo</span><br> From UMM</h1>
+        </div>
+    </div>
+</div>
+<!------about---->
+<div id="about">
+    <div class="container">
+    <div class="row">
+        <div class="about-col-1">
+            <img src="images/fotoo.png">
+        </div>
+        <div class="about-col-2">
+            <h1 class="sub-tittle">Tentang Saya</h1>
+            <p>“Seorang mahasiswa Teknik Informatika yang antusias dan berkomitmen tinggi terhadap pengembangan teknologi.
+                Dengan keterampilan analitis yang kuat dan pemahaman mendalam tentang bahasa pemrograman, basis data, dan
+                pemrosesan data, saya telah mengambil peran aktif dalam proyek-proyek pengembangan perangkat lunak. Saya mencari
+                peluang untuk mengaplikasikan pengetahuan dan keterampilan saya dalam sebuah tim yang inovatif dan mendukung,
+                sambil terus mengembangkan diri saya dalam era teknologi yang terus berkembang.</p>
+            
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Studi</p>
+                <p class="tab-links" onclick="opentab('education')">Pengalaman Kuliah</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>UI/UX</span><br>Designing Web/App Interface</li>
+                    <li><span>Web Deleopment</span><br>Web App Development</li>
+                    <li><span>Jaringan</span><br>Config program</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>SD</span><br>MI Muhammadiyah 18 sumberrejo</li>
+                    <li><span>SMP</span><br>SMP Negeri Model Terpadu</li>
+                    <li><span>SMA</span><br>SMA Negeri Model Terpadu</li>
+                    <li><span>S1</span><br>Universitas Muhammadiyah Malang</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>program kasir</span><br>menggunanakan bahasa c++</li>
+                    <li><span>Program Perpustakaan</span><br>menggunakan java</li>
+                    <li><span>web penelitian</span><br>menggunakan html, css, js, dan framework laravel</li>
+                    <li><span>aplikasi hotel</span><br>menggunanakan dart, flutter</li>
+                    <li><span>game "run from disaster"</span><br>menggunanakan unity</li>
+                    <li><span>game "pilih gambar pahlawan"</span><br>menggunanakan dart, flutter</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+<!-- -------service------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Service</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-css3"></i>
+                <h2>Web Design</h2>
+                <p>Saya Mempelajari bahasa html, css, js. saya memiliki ilmu tentang web 
+                    designer sebesar 70%</p>
+                    <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-laptop-code"></i>
+                <h2>DataBase</h2>
+                <p>Saya waktu Kuliah mempelajari Basis data, Stuktur data, statistik.
+                    dan saya mempunyai dasar dasar data sains. saya mempelajari framework laravel, flutter di semester 
+                   5 ini jadi cuman tau dasar nya saja</p>
+                    <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code-commit"></i>
+                <h2>Jaringan</h2>
+                <p>Saya waktu kuliah mempelajari tentang komunikasi data, jaringan
+                    komputer, sistem operasi. Jadi saya mempunyai kemampuan dasar
+                    tentang jaringan</p>
+                    <a href="#">learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-----portofolio----->
+<div id="portofolio">
+    <div class="container">
+        <h1 class="sub-title">Kegiatan saya</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/1.png">
+                <div class="layer">
+                    <h3>ngoding</h3>
+                    <p>Saya ingin mempelajari bahasa yang kurang saya pahami, dan sekarang saya mulai masuk ke be tp sebagai dasar/pemula</p>
+                    <a href="#"><i class="fa-brands fa-free-code-camp"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/th(2).png">
+                <div class="layer">
+                    <h3>playing a game</h3>
+                    <p>pastinya hidup saya ga melulu tentang coding, saya juga bermain game untuk menenangkan
+                        pikiran
+                    </p>
+                    <a href="#"><i class="fa-brands fa-free-code-camp"></i></a>
+                    </div>
+                </div>
+            <div class="work">
+                <img src="images/olahraga.png">
+                <div class="layer">
+                    <h3>olahraga</h3>
+                    <p>selain ngoding dan ngegame saya juga sering ber olahraga agar menjaga kesehatan 
+                        dan ke stabilan tubuh
+                    </p>
+                    <a href="#"><i class="fa-brands fa-free-code-camp"></i></a>
+                </div>
+             </div>
+             </div>
+         <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!----contact---->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-tittle">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>ferdojc175@webmail.umm.ac.id</p>
+                <p><i class="fa-solid fa-square-phone"></i>082332888730</p>
+                <div class="social-icon">
+                    <a href="https://fa-facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/ferdo.pdf"class="btn btn2">Lihat CV</a>
+                <a href="images/ProjectFerdo.pdf"class="btn btn2">Lihat Project</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="ferdoo">
+        <p>terima kasih telah melihat portofolio Ferdo</p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwIKz0M5JOEfr-eR2U7QzZd45LdHASXBvQfUPmG5XngALUpABalLBIA2lcmORZsyiPvSw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent succesfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>

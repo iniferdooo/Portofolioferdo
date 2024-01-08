@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "../../fungsional"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../Mobile"
+		},
+		{
+			"path": "../../modul"
+		},
+		{
+			"path": "../../Web"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Latihan"
+	}
+}
